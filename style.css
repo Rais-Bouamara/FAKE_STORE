@@ -1,0 +1,162 @@
+.bgblue{
+    background-color: blue;
+}
+.bgred{
+    background-color: red;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*classes flex box*/
+
+/*classes de largeur*/
+.w100 {
+    width: 100%;
+}
+
+.w48 {
+    width: 48%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w40 {
+    width: 40%;
+}
+
+.w33 {
+    width: 33%;
+}
+
+.w25 {
+    width: 25%;
+}
+
+.w10 {
+    width: 10%;
+}
+
+/*génériques*/
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.justify-center {
+    justify-content: center;
+}
+.justify-end{
+    justify-content: end;
+}
+body {
+    font-size: 14px;
+
+    font-family: "Jost", sans-serif
+}
+.suppuce {
+    list-style: none;
+}
+.ombre {
+    box-shadow: 0px 0px 5px gray;
+}
+.container-1000 {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card {
+    background-color: #43334C;
+    border-radius: 20px;
+    padding: 20px;
+    width: 30%;
+
+}
+
+.flex {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.carteimg {
+    width: 30%;
+    flex-wrap: wrap;
+}
+
+/*header*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    height: 5vH;
+}
+/*hero*/
+
+/*section1*/
+#section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.prix {
+    font-size: 30px;
+    color: #43334C;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.police {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.yellow{
+    color: rgba(243, 243, 4, 0.61);
+}
+.button1 {
+    background-color: #696FC7;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 15px;
+    display: inline-block;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button2 {
+    background-color: #FF8FB7;
+    border-radius: 5px;
+    color: #43334C;
+    padding: 5px 15px;
+    display: inline-block;
+    color: #43334C;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section-hero {
+    background-image: url(asset/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vH;
+    margin-top: 80px;
+    color: white;
+    border-radius: 20px;
+ 
+}
+/*section2*/
+
+/*section3*/
+
+/*footer*/
