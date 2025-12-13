@@ -10,11 +10,21 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
-/*classes flex box*/
+/*-------------------------------------------------------/*classes flex box*/
+.flex {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
 
-/*classes de largeur*/
+/*------------------------------------------------------/*classes de largeur*/
+.w200{
+    width: 200%;
+}
+
 .w100 {
     width: 100%;
 }
@@ -43,7 +53,10 @@
     width: 10%;
 }
 
-/*génériques*/
+.p5{
+    padding: 5px;
+}
+/*--------------------------------------------------------------/*génériques*/
 .space-between {
     justify-content: space-between;
 }
@@ -58,6 +71,12 @@
 .justify-end{
     justify-content: end;
 }
+.txt.center{
+    text-align: center;
+}
+.mgt100{
+    margin-top: 100px;
+}
 body {
     font-size: 14px;
 
@@ -69,31 +88,40 @@ body {
 .ombre {
     box-shadow: 0px 0px 5px gray;
 }
-.container-1000 {
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .card {
-    background-color: #43334C;
+    background-color: rgb(191, 188, 188);
+    border-radius: 20px;
+    padding: 20px;
+    width: 500px;
+    height: 400px;
+
+}
+.card2{
+    background-color: rgb(191, 188, 188);
     border-radius: 20px;
     padding: 20px;
     width: 30%;
-
+}
+.card3{
+    background-color: rgb(134, 5, 208);
+    border-radius: 20px;
+    padding: 20px;
+    width: 30%;
+}
+.cBlack{
+    color: black;
+    font-weight: bolder;
 }
 
-.flex {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-}
 
 .carteimg {
-    width: 30%;
+    width: 33%;
+    height: 33%;
     flex-wrap: wrap;
 }
 
-/*header*/
+/*--------------------------------------------------------/*header*/
 header {
     position: fixed;
     top: 0;
@@ -101,10 +129,38 @@ header {
     width: 100%;
     background-color: white;
     height: 5vH;
+    padding: 30px 20px 40px 20px;
+    
 }
-/*hero*/
+.alignCenter{
+    align-items: center;
+}
 
-/*section1*/
+/*------------------------------------------------------/*hero*/
+.container-1000 {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.section-hero {
+    background-image: url(banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vH;
+    margin-top: 100px;
+    color: white;
+    border-radius: 20px;
+
+}
+
+
+/*----------------------------------------------------/*section1*/
 #section1 {
     display: flex;
     flex-wrap: wrap;
@@ -115,7 +171,7 @@ header {
 
 .prix {
     font-size: 30px;
-    color: #43334C;
+    color: #040105;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -126,37 +182,20 @@ header {
 .yellow{
     color: rgba(243, 243, 4, 0.61);
 }
-.button1 {
-    background-color: #696FC7;
-    border-radius: 5px;
-    color: white;
-    padding: 5px 15px;
-    display: inline-block;
-    color: whitesmoke;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
 .button2 {
-    background-color: #FF8FB7;
+    background-color: #100d0e;
     border-radius: 5px;
-    color: #43334C;
+    color: #f6f4f7;
     padding: 5px 15px;
     display: inline-block;
-    color: #43334C;
+    color: #ffffff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.section-hero {
-    background-image: url(asset/banner.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 50vH;
-    margin-top: 80px;
-    color: white;
-    border-radius: 20px;
- 
-}
-/*section2*/
 
-/*section3*/
 
-/*footer*/
+/*------------------------------------------------------/*section2*/
+
+/*------------------------------------------------------/*section3*/
+
+/*------------------------------------------------------/*footer*/

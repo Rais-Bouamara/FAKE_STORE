@@ -33,13 +33,13 @@ function afficheProduits(tableaudeproduits) {
         let note =produit.rating.rate
         let utilisateur =produit.rating.count
 
-        console.log(produit.title)
+        
     });
 
   tableaudeproduits.forEach(produit => {
-document.getElementById("sectionHero").innerHTML +=`<div class="card">
+document.getElementById("section1").innerHTML +=`<div class="card mgt100 ">
                                                  <img src ="${produit.image}" alt="" class="carteimg">
-                                                 <div class="button1">
+                                                 <div class="">
                                                  <h2 class="police">${produit.title}</h2>
                                                  <p>${produit.category}</p>
                                                  <p class="prix">${produit.price} euros </p>
