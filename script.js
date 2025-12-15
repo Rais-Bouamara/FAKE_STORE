@@ -54,5 +54,4 @@ document.getElementById("section1").innerHTML +=`<div class="card mgt100 ">
 
 
 
-
  
